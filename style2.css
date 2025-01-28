@@ -28,7 +28,6 @@ footer {
     text-align: center;
     font-size: 14pt;
     background-color: #515659;
-    border: 2px solid blue;
 }
 @media screen and (max-width: 640px) {
     .container {
