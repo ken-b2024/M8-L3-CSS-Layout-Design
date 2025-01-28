@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #D0D8D9;
+}
+header {
+    display: block;
+    height: 55px;
+    padding-top: 15px;
+    font-size: 28pt;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #515659;
+}
+.box2 {
+    height: 1100px;
+    width: 525px;
+    padding-left: 10px;
+}
+footer {
+    margin-top: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 14pt;
+    background-color: #515659;
+    border: 2px solid blue;
+}
+@media screen and (max-width: 640px) {
+    .container {
+        position: relative;
+        text-wrap: pretty;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
